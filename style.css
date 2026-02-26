@@ -4,8 +4,10 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-@media (max-width:600px) {
-    .body{ flex-direction: column;
+@media screen and (max-width: 768px) {
+  .feature-box {
+    flex-direction: column;   
+    align-items: center;
     }
 }
 body {
@@ -70,20 +72,15 @@ nav a {
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0); }
+    100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
 
 .features {
-    padding: 80px 10%;
+    padding: 60px 6%;
     background: white;
     color: #057e36;
     text-align: center;
-}
-
-.features h2 {
-    margin-bottom: 40px;
-    font-size: 36px;
 }
 
 .feature-box {
@@ -114,3 +111,5 @@ footer {
     background: #111;
     font-size: 14px;
 }
+
+
