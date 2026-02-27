@@ -4,11 +4,18 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .feature-box {
     flex-direction: column;   
     align-items: center;
     }
+    }
+@media screen and (max-width: 600px) {
+  .body {
+    flex-direction: column;   
+    align-items: center;
+    }
+}
 }
 body {
     background: linear-gradient(135deg, #161616, #d0da0a);
@@ -111,6 +118,7 @@ footer {
     background: #111;
     font-size: 14px;
 }
+
 
 
 
